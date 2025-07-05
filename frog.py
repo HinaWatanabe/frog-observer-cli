@@ -54,7 +54,7 @@ def main():
         else:
             print("[無効]1~4で選択してください")
 
-        days += 1
+        frog.days += 1
 
 if __name__ == "__main__":
     main()
