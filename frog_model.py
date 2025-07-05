@@ -11,7 +11,7 @@ class Frog:
         self.friend = 0
 
 
-    def feed(self, food=10):
+    def feed(self, food=20):
             self.fullstom = min(100, self.fullstom + food)
             self.weight += 1  # 餌10で1g増える
     
