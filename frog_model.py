@@ -20,7 +20,7 @@ class Frog:
         self.fullstom = max(0, self.fullstom - 10)
         if self.fullstom < 30:
             self.weight -= 0.2  # 空腹だと痩せる
-            self.friend -= 
+            self.friend -= 3
             
         elif self.fullstom > 60:
             self.friend += 3
